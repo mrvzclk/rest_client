@@ -8,13 +8,7 @@ import java.util.List;
 
 public class Gitlab {
 
-   GitLabApi gitLabApi = new GitLabApi("https://gitlab.testinium.io", "YOUR_ACCESS_TOKEN");
-     {
-        try {
-            gitLabApi = GitLabApi.login("https://gitlab.testinium.io", "your-username", "your-password");
-        } catch (GitLabApiException e) {
-            e.printStackTrace();
-        }
-    }
+
+
 
 }
